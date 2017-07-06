@@ -76,7 +76,7 @@ namespace WindowsFormsApplication1
             try
             {
                 Conn2.Open();
-                MessageBox.Show("You bet your ass it did" + Environment.NewLine + db, "Did database2 connect?", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                MessageBox.Show("You betbet your ass it did" + Environment.NewLine + db, "Did database2 connect?", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             }
             catch (SqlException ex)
             {
